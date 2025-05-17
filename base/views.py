@@ -78,6 +78,9 @@ def aboutus(request):
 def contactus(request):
     return render(request, 'base/contactus.html')
 
+def result(request):
+    return render(request,'base/table.html')
+
 #METHOD 4
 
 # @login_required(login_url= 'login')

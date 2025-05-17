@@ -12,4 +12,5 @@ urlpatterns = [
     path('aboutus/', views.aboutus, name="aboutus"),
     path('contactus/', views.aboutus, name="contactus"),
     path('view_resumes/', views.view_resumes, name='view_resumes'),
+    path('result',views.result, name ="result")
 ]
